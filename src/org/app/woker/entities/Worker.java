@@ -13,4 +13,11 @@ public class Worker {
 
     protected String workerPosition = "Simple worker";
 
+    public String getWorkerPosition() {
+        return workerPosition;
+    }
+
+    public void setWorkerPosition(String workerPosition) {
+        this.workerPosition = workerPosition;
+    }
 }

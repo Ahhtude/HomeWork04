@@ -5,6 +5,13 @@ package org.app.woker.entities;
  *
  * @author alitvinov
  */
-public class Programmer {
+public class Programmer extends Worker{
 
+    private String language;
+    private String Rate;
+
+    @Override
+    public String getWorkerPosition() {
+        return super.getWorkerPosition() + "is Programmer";
+    }
 }

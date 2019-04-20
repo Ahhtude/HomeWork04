@@ -5,7 +5,12 @@ package org.app.woker.entities;
  *
  * @author alitvinov
  */
-public class Manager {
+public class Manager extends Worker {
+    private String project;
+    private int expirience;
 
-
+    @Override
+    public String getWorkerPosition() {
+        return super.getWorkerPosition() + "is Manager";
+    }
 }
