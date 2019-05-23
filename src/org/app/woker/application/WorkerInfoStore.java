@@ -73,7 +73,4 @@ public final class WorkerInfoStore {
         }
     }
 
-    public int getManagersCount() {
-        return managersCount;
-    }
 }
